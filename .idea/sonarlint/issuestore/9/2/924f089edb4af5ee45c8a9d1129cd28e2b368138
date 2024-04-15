@@ -1,0 +1,47 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(ñ¢Œİùÿÿÿÿ8Â…­İ1
+X
+java:S1854t";Remove this useless assignment to local variable "strings".(ïâğÏ8š¤Äµİ1
+W
+java:S1854A"5Remove this useless assignment to local variable "s".(ò÷èøúÿÿÿÿ8›¤Äµİ1
+\
+java:S18547":Remove this useless assignment to local variable "median".(²é¶øøÿÿÿÿ8›¤Äµİ1
+9
+java:S3626’"Remove this redundant jump.(ûÁİ…8œ¤Äµİ1
+L	java:S1060"+Replace this use of System.err by a logger.(ï±èöşÿÿÿÿ8 ¤Äµİ1
+]	java:S1255"<This block of commented-out lines of code should be removed.(şÔçÏüÿÿÿÿ8¢¤Äµİ1
+M
+java:S14817"+Remove this unused "median" local variable.(²é¶øøÿÿÿÿ8¢¤Äµİ1
+G	java:S106:"+Replace this use of System.err by a logger.(òè™©8£¤Äµİ1
+L	java:S106<"+Replace this use of System.err by a logger.(±Òîíøÿÿÿÿ8¥¤Äµİ1
+G	java:S106?"+Replace this use of System.err by a logger.(·¼Ò8¦¤Äµİ1
+H
+java:S1481A"&Remove this unused "s" local variable.(ò÷èøúÿÿÿÿ8©¤Äµİ1
+X	java:S125L"<This block of commented-out lines of code should be removed.(Õç°¶8¬¤Äµİ1
+L	java:S106^"+Replace this use of System.out by a logger.(¢Å×Åúÿÿÿÿ8–Â…­İ1
+G	java:S106_"+Replace this use of System.out by a logger.(‡“í“8–Â…­İ1
+L	java:S106`"+Replace this use of System.out by a logger.( šúúüÿÿÿÿ8—Â…­İ1
+L	java:S106a"+Replace this use of System.out by a logger.( šúúüÿÿÿÿ8›Â…­İ1
+L	java:S106k"+Replace this use of System.out by a logger.(œìã ÿÿÿÿÿ8²¤Äµİ1
+G	java:S106l"+Replace this use of System.out by a logger.(”û°8²¤Äµİ1
+G	java:S106o"+Replace this use of System.out by a logger.(†œÈ8²¤Äµİ1
+I
+java:S1481t",Remove this unused "strings" local variable.(ïâğÏ8³¤Äµİ1
+]	java:S125v"<This block of commented-out lines of code should be removed.(›ñäœşÿÿÿÿ8¶¤Äµİ1
+M	java:S106‘"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8·¤Äµİ1
+^	java:S125“"<This block of commented-out lines of code should be removed.(°ÍÀÍüÿÿÿÿ8·¤Äµİ1
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8Èó‘­İ1
+V
+java:S1128"4Remove this unused import 'java.util.LinkedHashSet'.(à€¼úÿÿÿÿ8Èó‘­İ1
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18Èó‘­İ1
+L
+java:S1128	"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8Èó‘­İ1
+P
+java:S1128
+".Remove this unused import 'java.util.TreeMap'.(¨éˆèıÿÿÿÿ8Èó‘­İ1
+J
+java:S1128".Remove this unused import 'java.util.TreeSet'.(½îB8Èó‘­İ1
+c
+java:S1128"ARemove this unused import 'java.util.concurrent.ExecutorService'.(æ÷–£ùÿÿÿÿ8Èó‘­İ1

@@ -1,0 +1,20 @@
+
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Á¶Šôûÿÿÿÿ8­™“Ş1
+J
+java:S1128"(Remove this unused import 'javax.swing'.(Ìí¿Üüÿÿÿÿ8´™“Ş1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8´™“Ş1
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8´™“Ş1
+I
+java:S1128	",Remove this unused import 'java.util.Queue'.(Äá™ô8´™“Ş1
+L
+java:S1128
+"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8´™“Ş1
+N
+java:S1128",Remove this unused import 'java.util.Stack'.(ŞÈ†üúÿÿÿÿ8´™“Ş1
+P
+java:S1128".Remove this unused import 'java.util.TreeMap'.(¨éˆèıÿÿÿÿ8´™“Ş1
+J
+java:S1128".Remove this unused import 'java.util.TreeSet'.(½îB8´™“Ş1

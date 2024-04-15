@@ -1,0 +1,26 @@
+query {
+  validateCompany(auctionAccessId: "5424999",
+  last4GovernmentId: "",
+  auctionId: "5199",
+  issuingState: "",
+  postCode: "",
+  stateLicenseId: ""
+  ){
+  company {
+  id
+  dealer {
+  companyName
+  legalName
+  companyType
+}
+issues {
+  issueType {
+  association
+  id
+  displayNameEnglish
+  instructionsEnglish
+}}
+}
+isValid      message
+}
+}

@@ -1,0 +1,8 @@
+
+y	java:S1270"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ýÿÿÿÿ8ªØˆåÝ1
+l
+java:S1104"OMake val a static final constant or non-public and provide accessors if needed.(Ô¸úÏ8«ØˆåÝ1
+m
+java:S1104"PMake left a static final constant or non-public and provide accessors if needed.(ŠËÌç8«ØˆåÝ1
+s
+java:S1104"QMake right a static final constant or non-public and provide accessors if needed.(ë™Ùµøÿÿÿÿ8«ØˆåÝ1

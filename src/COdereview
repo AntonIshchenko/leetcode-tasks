@@ -1,0 +1,51 @@
+Описание задачи: Требуется реализовать REST эндпоинт для получения списка проектов в которых заданный пользователь
+состоит в качестве администратора. Поскольку в системе существует большое количество проектов, требуется предусмотреть
+параметр для ограничения результата.
+
+@RestController
+public class UserController {
+
+    @Value("response.limit")
+    private int responseLimit;
+
+    @Autowired
+    private ProjectsService projectsService;
+
+    @RequestMapping(path = "/get/user/admin/projects", method = RequestMethod.POST)
+    public String getProjectsWhereUserIsAdmin(@PathVariable("userId") String userId) {
+        try {
+
+            final List<ProjectDTO> userProjects = getProjectsWithRetry()
+                    .stream()
+                    .limit(responseLimit)
+                    .filter(project -> project.getUserIds().contains(userId))
+                    .collect(Collectors.toList());
+
+            return new ObjectMapper().writeValueAsString(userProjects);
+
+        } catch (Throwable t) {
+            System.err.println("Unexpected error: " + t.getMessage());
+            return "error";
+        }
+    }
+
+    @Retryable
+    private List<ProjectDTO> getProjectsWithRetry() {
+        return projectsService.getProjects();
+    }
+
+}
+
+@Data
+public class ProjectDTO {
+    private String id;
+    private String name;
+    private transient List<String> userIds;
+    private List<String> adminUserIds;
+}
+
+public interface ProjectsService {
+
+    List<ProjectDTO> getProjects();
+
+}
